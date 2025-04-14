@@ -13,8 +13,8 @@ class PromptTemplateNode:
 
         return {
             "required": {
-                "Select Prompt": (list(cls.prompt_map.keys()),),
-                "Model Name": ("STRING", {"default": "Jessica"}),
+                "prompt_template": (list(cls.prompt_map.keys()),),
+                "model_name": ("STRING", {"default": "Esmeralda"}),
             }
         }
 
